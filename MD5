@@ -1,8 +1,8 @@
-78c3c0516afa9fd5fd37371ddd2d6aeb *DESCRIPTION
+a734c3a7e0b8c20b836fae782ee370f5 *DESCRIPTION
 049f901f02737fdb6c749afbb018ff5c *LICENSE
 e1df2625b55a2da7589289b8cdd73fd1 *NAMESPACE
 17bd572e1c27c8fa6f615cd58c4a965c *NEWS.md
-870b04da91e7cff8cb1270edc33db234 *R/austen_books.R
+2d540d83a684fcecc4a486ab1935489f *R/austen_books.R
 ba9b163db5c34fca91d2d6f3f423c0be *R/globalVariables.R
 c3a5e3e99e6aeb056424feb1be3a7869 *R/novels.R
 05bdad9b2f247a60d90a6ea9286dcae4 *README.md
@@ -21,3 +21,5 @@ adfa330d70b051d075edf6ea9e364427 *man/austen_books.Rd
 9b6bd92ea9639225e4b744e975cd2923 *man/persuasion.Rd
 23f7383fff76e5dc7608d978df661ab6 *man/prideprejudice.Rd
 c8410017dd23918b5ce1939b22ab4a57 *man/sensesensibility.Rd
+4a76862ae5b3a2e9e5c21fee7520c3a6 *tests/testthat.R
+92ccd9a9ed3c3386c4eac85f10c5b89d *tests/testthat/test_austen_books.R
