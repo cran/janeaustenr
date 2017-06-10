@@ -24,14 +24,15 @@
 #' @export
 austen_books <- function(){
         books <- list(
-                "Sense & Sensibility" = sensesensibility,
-                "Pride & Prejudice" = prideprejudice,
-                "Mansfield Park" = mansfieldpark,
-                "Emma" = emma,
-                "Northanger Abbey" = northangerabbey,
-                "Persuasion" = persuasion
+                "Sense & Sensibility" = janeaustenr::sensesensibility,
+                "Pride & Prejudice" = janeaustenr::prideprejudice,
+                "Mansfield Park" = janeaustenr::mansfieldpark,
+                "Emma" = janeaustenr::emma,
+                "Northanger Abbey" = janeaustenr::northangerabbey,
+                "Persuasion" = janeaustenr::persuasion
         )
-       ret <- data.frame(text = unlist(books, use.names = FALSE), stringsAsFactors = FALSE)
+       ret <- data.frame(text = unlist(books, use.names = FALSE), 
+                         stringsAsFactors = FALSE)
        ret$book <- factor(rep(names(books), sapply(books, length)))
        ret$book <- factor(ret$book, levels = unique(ret$book))
        structure(ret, class = c("tbl_df", "tbl", "data.frame"))
